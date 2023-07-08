@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Pagina musica favorita" content="musica">
+    <meta name="author" content="Ivan Jorge Sanchez Abrego">
+    <title>Música Favorita</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        dl {
+            text-align: center;
+        }
+
+        dt {
+            font-size: 20px;
+            color: #007bff;
+            margin-top: 15px;
+        }
+
+        dd {
+            font-size: 16px;
+            color: #0FFF00;
+        }
+
+        img {
+            width: 560px;
+            height: 315px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .media-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .media-container iframe,
+        .media-container audio {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Música Favorita</h1>
+    <dl>
+        <dt>Hollow Hunger</dt>
+        <dd>OXT</dd>
+        <dd>
+            <div class="media-container">
+                <img src="media/h4.jpg" alt="Hollow Hunger">
+                <div>
+                    <audio controls>
+                        <source src="media/op4.mp3" type="audio/mp3">
+                    </audio>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lLzbFrWCBUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </dd>
+        <dt>Idol</dt>
+        <dd>Yoasobi</dd>
+        <dd>
+            <div class="media-container">
+                <img src="media/idol.png" alt="Idol">
+                <div>
+                    <audio controls>
+                        <source src="media/idol.mp3" type="audio/mp3">
+                    </audio>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRtdQ81jPUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </dd>
+        <dt>Enemy</dt>
+        <dd>Imagine Dragons</dd>
+        <dd>
+            <div class="media-container">
+                <img src="media/enemyy.jpg" alt="Enemy">
+                <div>
+                    <audio controls>
+                        <source src="media/enemy.mp3" type="audio/mp3">
+                    </audio>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vX1lUMGURbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </dd>
+    </dl>
+</body>
+</html>
